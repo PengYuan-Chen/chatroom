@@ -3,7 +3,7 @@
 ![web2](https://github.com/PengYuan-Chen/chatroom/assets/56713107/a5097700-1c1f-4c0d-b655-9eb47db4d32c)
 
 技術
-- WebSocket 、 WebSocket.io
+- WebSocket 、 Socket.IO
 - 服務器架設: Node.js
 
 功能
