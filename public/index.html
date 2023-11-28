@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="login">
+        <div class="container">
+            <h1 class="header">LINE</h1>
+            <div class="fm">
+                <input type="text" placeholder="暱稱" id="username">
+                <p>選擇頭像</p>
+                <ul class="avatar">
+                    <li class="now"><img src="./img/1.png"></li>
+                    <li><img src="./img/2.png"></li>
+                    <li><img src="./img/3.png"></li>
+                    <li><img src="./img/4.png"></li>
+                </ul>
+                <button class="login-btn">登入</button>
+            </div>
+        </div>
+    </div>
+    <div id="chat" style="display: none;">
+        <div class="container1">
+            <div class="user">
+                <div class="my">
+                    <img class="person-img" src="./img/milk.jpg">
+                    <span class="person">用戶名</span>
+                </div>
+                <h1>用戶列表</h1>
+                <div class="person-list"></div>
+            </div>
+            <div class="room">
+                <h1>聊天室(<span class="person-count"></span>)</h1>
+                <div class="main"></div>
+                <div class="buttom">
+                    <textarea id="text-area" cols="0" rows="10"></textarea>
+                    <button class="btn-send">發送</button>
+                    <label for="file"><i class="fa-regular fa-folder"><input type="file" id="file" style="display:none"></i></label>             
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://kit.fontawesome.com/aa0c29c4be.js" crossorigin="anonymous"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

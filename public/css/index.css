@@ -1,0 +1,232 @@
+/*#region*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(181, 181, 181);
+}
+
+.container{
+    width:700px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: 200px;
+    position: relative;
+}
+.login .header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    font-size: 50px;
+    position: absolute;
+    top:100px;
+    left:300px
+}
+.login  input{
+    display: block;
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.login .fm{
+    position: absolute;
+    top:200px;
+    left: 200px;
+}
+.login .fm button{
+    width: 325px;
+    height: 50px;
+    font-size: 18px;
+    background-color:green;
+    margin-top: 10px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: gray;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+    margin:0 10px
+}
+li img{
+    width: 50px;
+    list-style: none;
+}
+.now{
+    border-radius: 50px;
+    border: 2px solid green;
+}
+/*#endregion*/
+/*#region*/
+.container1{
+    width:1500px;
+    height:100vh;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+.user{
+    width: 500px;
+    height: 100vh;
+    float: left;
+    border-right: 1px solid black;
+    background-color:rgb(7, 59, 79);
+    color: white;
+}
+.room{
+    width:999px;
+    height:100vh;
+    float: right;
+}
+.my{
+    border-bottom: 1px solid rgb(7, 7, 87)
+}
+.my img{
+    width: 50px;
+    border-radius: 50%;
+    vertical-align:middle;
+    padding: 20px;
+}
+.my span{  
+    font-weight: bold; 
+    font-size:30px;
+    vertical-align:middle;
+    color: rgb(255, 255, 255);
+}
+.user h1{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-bottom: 1px solid rgb(7, 7, 87)
+}
+.person-list{
+    overflow-y: scroll;
+    height: 700px;
+}
+/*#endregion*/
+/*#region*/
+.room h1{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border-bottom:1px solid black;
+}
+.room h3{
+    color: gray;
+    text-align: center;
+    margin:30px 0;
+}
+.talk{
+    height: 50px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.talk #main-img{
+    width: 50px;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-left: 15px;
+    position: absolute;
+    top:0;
+    right:10px;
+}
+.talk .word{
+    display: inline-block;
+    vertical-align: middle;
+    max-width:200px;
+    word-wrap: break-word;
+    background-color: green;
+    border-radius: 5px;
+    position: absolute;
+    top:0;
+    right:70px;
+}
+.talk div span{
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.other-talk .word{
+    position: absolute;
+    top:0;
+    left:70px;    
+    background-color: rgb(232, 232, 232)
+}
+.other-talk #main-img{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.main{
+    overflow-y: scroll;
+    height: 600px;
+}
+#showImg{
+    height:200px;
+}
+#Img-show{
+    position: absolute;
+    top:0;
+    right:70px;
+}
+#Img-show2{
+    position: absolute;
+    top:0;
+    left:70px; 
+}
+::-webkit-scrollbar {
+    width: 1em;
+  }
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+::-webkit-scrollbar-thumb {
+    background-color: white;
+    border: 1px solid slategrey;
+}
+/*#endregion*/
+/*#region*/
+.buttom{
+    border-top: 1px solid black;    
+    position: relative;
+
+}
+.buttom textarea{
+    height:167px;
+    width: calc(100% - 20px);
+    outline:none;
+    font-size: 20px;
+    resize: none;
+    margin: 0;
+    border: none;
+    padding: 10px;
+}
+.buttom button{
+    background-color: rgb(255, 255, 255);
+    border:1px solid black;
+    position: absolute;
+    bottom:10px;
+    right: 25px;
+    font-size: 20px;
+    width: 100px;
+    cursor: pointer;
+}
+.fa-folder{
+    position: absolute;
+    bottom:10px;
+    left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+/*#endregion*/
